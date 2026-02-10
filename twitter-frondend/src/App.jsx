@@ -47,7 +47,7 @@ function App() {
   }
 
   return (
-    <div className="flex max-w-7xl mx-auto">
+    <div className="flex max-w-8xl mx-auto">
       {/* Sidebar only shows if user is logged in */}
       {authUser && <Sidebar />}
 
