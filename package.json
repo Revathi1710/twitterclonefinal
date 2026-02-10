@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node backend/server.js",
 
- "build": "npm install && npm install --prefix twitter-frondend && npm run build --prefix twitter-frondend",
+ "build": "npm install && cd twitter-frondend && npm install && npm run build",
     "dev": "nodemon backend/server.js"
   },
   "keywords": [],
